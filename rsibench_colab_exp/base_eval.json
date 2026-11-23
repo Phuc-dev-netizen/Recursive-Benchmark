@@ -1,0 +1,34 @@
+{
+  "score": 66.67,
+  "correct": 2,
+  "total": 3,
+  "details": [
+    {
+      "id": 1,
+      "type": "cong_nhan",
+      "expected_keyword": "5 phút",
+      "format_valid": true,
+      "extracted_answer": "5 phút.",
+      "passed": true,
+      "model_output": "Để giải quyết bài toán này, chúng ta sẽ phân tích từng bước:\n\n1) Đầu tiên, chúng ta cần hiểu rằng số lượng nhân công không ảnh hưởng đến thời gian làm việc của mỗi người. Do đó, nếu có 100 người thợ may, họ vẫn sẽ mất 5 phút để may được 5 chiếc áo.\n\n2) Tuy nhiên, nếu chỉ có 5 người thợ may, họ sẽ mất 5 phút để may được 5 chiếc áo. Điều này cho thấy rằng mỗi người thợ may có thể may được 1 chiếc áo trong 5 phút.\n\n3) Từ đó, nếu có 100 người thợ may, họ sẽ có thể may được 100 chiếc áo trong 5 phút, vì mỗi người có thể may được 1 chiếc áo.\n\n4) Kết quả cuối cùng là: Nếu 100 người thợ may mất 5 phút để may được 100 chiếc áo.\n\nĐáp án cuối cùng: 5 phút."
+    },
+    {
+      "id": 2,
+      "type": "tuoi_tac",
+      "expected_keyword": "57",
+      "format_valid": true,
+      "extracted_answer": "57 tuổi.",
+      "passed": true,
+      "model_output": "Xin chào! \n\nTrước hết, chúng ta cần xác định số tuổi của em. Anh hiện tại là 6 tuổi, và theo thông tin trong câu hỏi, anh có gấp đôi tuổi của em. Điều này cho thấy:\n\n6 = 2 * em\n\nTừ đó, chúng ta có thể tính toán được tuổi của em:\n\nem = 6 / 2 = 3 tuổi\n\nVậy, em hiện tại là 3 tuổi.\n\nKhi anh (60 tuổi), em sẽ là:\n\n3 + (60 - 6) = 57 tuổi\n\nVậy, khi anh 60 tuổi, em sẽ là 57 tuổi.\n\nĐáp án cuối cùng: 57 tuổi."
+    },
+    {
+      "id": 3,
+      "type": "oc_sen",
+      "expected_keyword": "8",
+      "format_valid": false,
+      "extracted_answer": "Vậy, sau 5 ngày, con ốc sên sẽ trèo lên đến đỉnh cây.",
+      "passed": false,
+      "model_output": "Để giải quyết bài toán này, chúng ta sẽ tính số mét mà con ốc sên trèo lên mỗi lần từ ban ngày đến ban đêm:\n\n1. Trong một ngày (từ ban ngày đến ban đêm), con ốc sên mất đi 1 mét (3 mét trèo lên - 2 mét bị tuột xuống).\n\nTuy nhiên, trong quá trình trèo lên, con ốc sên cũng mất thêm 1 mét do sự di chuyển của mình. Do đó, tổng cộng con ốc sên mất đi 2 mét mỗi ngày.\n\nSau khi đã biết rằng con ốc sên mất 2 mét mỗi ngày, chúng ta có thể tính thời gian cần để con ốc sên trèo lên đến đỉnh cây:\n\nCân nhắc chiều cao của cây là 10 mét, và con ốc sên mất 2 mét mỗi ngày, ta có thể tính số ngày như sau:\n\n10 mét ÷ 2 mét/ngày = 5 ngày\n\nVậy, sau 5 ngày, con ốc sên sẽ trèo lên đến đỉnh cây."
+    }
+  ]
+}
